@@ -1,3 +1,6 @@
+from random import randint
+
+'''
 # A naive recursive implementation of 0-1 Knapsack Problem
 
 # Returns the maximum value that can be put in a knapsack of
@@ -20,7 +23,10 @@ def knapSack(W, wt, val, n):
                    knapSack(W, wt, val, n - 1))
 
 
+# end of function knapSack
 '''
+
+
 # A Dynamic Programming based Python Program for 0-1 Knapsack problem
 # Returns the maximum value that can be put in a knapsack of capacity W
 def knapSack(W, wt, val, n):
@@ -37,18 +43,15 @@ def knapSack(W, wt, val, n):
                 K[i][w] = K[i - 1][w]
 
     return K[n][W]
-'''
 
-# end of function knapSack
 
 # To test above function
-val = [60, 100, 120]
-wt = [10, 20, 30]
-W = 50
+# val = [60, 100, 120]
+val = [randint(0, 50) for x in range(500)]
+
+# wt = [10, 20, 30]
+wt = [randint(0, 500) for x in range(500)]
+W = 1000
 n = len(val)
 
-knapSack(W, wt, val, n)
-
-
-
-
+print(knapSack(W, wt, val, n))
