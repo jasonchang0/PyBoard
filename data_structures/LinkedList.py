@@ -83,7 +83,7 @@ class LinkedList(object):
         return False
 
     def getFirst(self):
-        return self.head.val
+        return self.head.next.val
 
     def getLast(self):
         return self.tail.val
@@ -125,7 +125,7 @@ class LinkedList(object):
             self.__init__()
             return
 
-        while current.next.next:
+        while current.next.hasNext():
             current = current.next
 
         current.next = None
@@ -134,12 +134,13 @@ class LinkedList(object):
     def set(self, index, element):
         s_site = self.head.next
 
-        if index >= self.size:
+        if index > self.size:
             raise Exception('Bad Index.')
 
         for i in range(index):
             s_site = s_site.next
-            s_site.val = element
+
+        s_site.val = element
 
     def _fromArray(self, arr):
         self.__init__(head=arr[0])
@@ -165,7 +166,6 @@ class LinkedList(object):
         out_array.append(current.val)
 
         return out_array
-
 
 
 

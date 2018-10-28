@@ -64,6 +64,17 @@ class TestLinkedList(unittest.TestCase):
 
         self.assertEqual([], linked_lst.toArray())
 
+    def testSet(self):
+        lst = [1, 3, 5, 7, 9]
+        linked_lst = ll.LinkedList(fromArray=lst)
+        linked_lst.set(4, linked_lst.getLast() + 2)
+        lst[-1] += 2
+
+        print(linked_lst.getFirst())
+        print(linked_lst.toArray())
+
+        self.assertEqual(lst, linked_lst.toArray())
+
     def testRandomArrayEquals(self):
         lst = np.random.randint(sys.maxsize, size=10)
         linked_lst = ll.LinkedList(fromArray=lst)
