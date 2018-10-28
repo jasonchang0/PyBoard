@@ -1,6 +1,6 @@
 class LinkedList(object):
 
-    def __init__(self, head=None, tail=None, fromArray=None):
+    def __init__(self, head=None, fromArray=None):
         if head and fromArray:
             raise Exception('Bad Argument!')
 
@@ -8,9 +8,16 @@ class LinkedList(object):
             self._fromArray(fromArray)
             return
 
-        self.head = head
-        self.tail = tail
+        self.sentinel = 0
+        self.head = self.Node(val=self.sentinel)
+        self.tail = self.head
         self.size = 0
+
+        if head:
+            new_node = self.Node(val=self.head)
+            self.head.next = new_node
+            self.tail = new_node
+            self.size += 1
 
     class Node(object):
 
@@ -18,18 +25,14 @@ class LinkedList(object):
             self.val = val
             self.next = next
 
-        def isEmpty(self):
-            return not self.next
+        def hasNext(self):
+            return self.next
         
     def add(self, index, element):
-        i_site = self.head
+        i_site = self.head.next
 
         if index > self.size:
             raise Exception('Bad Index.')
-
-        if index == self.size:
-            self.tail = self.Node(e, self.tail)
-            return
 
         for i in range(index):
             i_site = i_site.next
@@ -39,19 +42,20 @@ class LinkedList(object):
         self.size += 1
 
     def addFirst(self, e):
-        self.head = self.Node(e, self.head)
+        self.head.next = self.Node(e, self.head.next)
         self.size += 1
 
     def addLast(self, e):
-        i_site = self.head
-
-        if not i_site:
-            self.head = self.Node(val=e)
-            self.tail = self.head
+        if self.isEmpty():
+            new_node = self.Node(val=e)
+            self.head.next = new_node
+            self.tail = new_node
             self.size += 1
             return
 
-        while not i_site.isEmpty():
+        i_site = self.head.next
+
+        while i_site.hasNext():
             i_site = i_site.next
 
         i_site.next = self.Node(val=e)
@@ -65,7 +69,7 @@ class LinkedList(object):
         return self.head
 
     def isEmpty(self):
-        return not self.size and not self.head
+        return not self.size
 
     def contain(self, e):
         current = self.head
@@ -85,7 +89,7 @@ class LinkedList(object):
         return self.tail.val
 
     def indexOf(self, e):
-        current = self.head
+        current = self.head.next
         index = 0
 
         while not current:
@@ -98,12 +102,12 @@ class LinkedList(object):
         return -1
 
     def remove(self, index):
-        r_site = self.head
+        r_site = self.head.next
 
         if index > self.size:
             raise Exception('Bad Index.')
 
-        for i in range(index - 1):
+        for i in range(index):
             r_site = r_site.next
 
         r_site.next = None
@@ -111,13 +115,13 @@ class LinkedList(object):
 
     def removeFirst(self):
         if not self.isEmpty():
-            self.head = self.head.next
+            self.head.next = self.head.next.next
             self.size -= 1
 
     def removeLast(self):
-        current = self.head
+        current = self.head.next
 
-        if not current or current.isEmpty():
+        if not current or current.hasNext():
             self.__init__()
             return
 
@@ -128,35 +132,32 @@ class LinkedList(object):
         self.size -= 1
 
     def set(self, index, element):
-        s_site = self.head
+        s_site = self.head.next
 
-        if index > self.size:
+        if index >= self.size:
             raise Exception('Bad Index.')
-
-        if index == self.size:
-            self.tail = self.Node(val=e)
-            return
 
         for i in range(index):
             s_site = s_site.next
             s_site.val = element
 
     def _fromArray(self, arr):
-        self.head = self.Node(val=arr[0])
-        self.tail = self.head.next
-        self.size = 0
+        self.__init__(head=arr[0])
+        # self.head = self.Node(val=arr[0])
+        # self.tail = self.head.next
+        # self.size = 0
 
         for i in arr[1:]:
             self.addLast(i)
 
     def toArray(self):
         out_array = []
-        current = self.head
+        current = self.head.next
 
-        if not current:
+        if self.isEmpty():
             return out_array
 
-        while not current.isEmpty():
+        while current.hasNext():
             out_array += [current.val]
             current = current.next
             # print(out_array)
@@ -164,7 +165,6 @@ class LinkedList(object):
         out_array.append(current.val)
 
         return out_array
-
 
 
 

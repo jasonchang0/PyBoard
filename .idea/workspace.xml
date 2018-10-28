@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8400868-463e-4a35-a0c2-75dc2f3d5daa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/data_structures/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/LinkedList.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PyBoard$Unittests_in_TestLinkedList_py.coverage" NAME="Unittests in TestLinkedList.py Coverage Results" MODIFIED="1540762716840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/PyBoard$Unittests_for_TestLinkedList_TestLinkedList_testRemoveLast.coverage" NAME="Unittests for TestLinkedList.TestLinkedList.testRemoveLast Coverage Results" MODIFIED="1540763266112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/PyBoard$Unittests_for_TestLinkedList_TestLinkedList_testAddLast.coverage" NAME="Unittests for TestLinkedList.TestLinkedList.testAddLast Coverage Results" MODIFIED="1540763256530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/PyBoard$Unittests_for_TestLinkedList_TestLinkedList_testAddFirst.coverage" NAME="Unittests for TestLinkedList.TestLinkedList.testAddFirst Coverage Results" MODIFIED="1540763008962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/PyBoard$Unittests_for_TestLinkedList_TestLinkedList_testRandomArrayEquals.coverage" NAME="Unittests for TestLinkedList.TestLinkedList.testRandomArrayEquals Coverage Results" MODIFIED="1540763271793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/PyBoard$Unittests_for_TestLinkedList_TestLinkedList.coverage" NAME="Unittests for TestLinkedList.TestLinkedList Coverage Results" MODIFIED="1540730200679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/PyBoard$Unittests_for_TestLinkedList_TestLinkedList_testArrayEquals.coverage" NAME="Unittests for TestLinkedList.TestLinkedList.testArrayEquals Coverage Results" MODIFIED="1540737424619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/PyBoard$knapsack.coverage" NAME="knapsack Coverage Results" MODIFIED="1540569276362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyBoard$Unittests_for_TestLinkedList_TestLinkedList_testRemoveFirst.coverage" NAME="Unittests for TestLinkedList.TestLinkedList.testRemoveFirst Coverage Results" MODIFIED="1540763263178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-933674514">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="3206" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="3206" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/knapsack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_structures/LinkedList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2958">
+              <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structures/TestLinkedList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1540737329407" expanded="true" signature="112:2545" ph="..." />
+                <marker date="1540737329407" expanded="true" signature="1682:1688" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>self.head.val, self.head.tail</find>
+      <find>self.Node</find>
+      <find>Node</find>
+      <find>self.Node(self.head.val, self.head.next)</find>
+      <find>==</find>
+      <find>Node()</find>
+      <find>assertEqual</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.head.val, self.head.next</replace>
+      <replace>Node</replace>
+      <replace>self.Node</replace>
+      <replace>self.head</replace>
+      <replace>assertEquals</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/knapsack.py" />
+        <option value="$PROJECT_DIR$/data_structures/TestLinkedList.py" />
+        <option value="$PROJECT_DIR$/data_structures/LinkedList.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="24" />
+    <option name="y" value="22" />
+    <option name="width" value="1656" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PyBoard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyBoard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyBoard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyBoard" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyBoard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for TestLinkedList.TestLinkedList.testRandomArrayEquals">
+    <configuration name="Unittests for TestLinkedList.TestLinkedList.testAddFirst" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyBoard" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestLinkedList.TestLinkedList.testAddFirst&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestLinkedList.TestLinkedList.testAddLast" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyBoard" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestLinkedList.TestLinkedList.testAddLast&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestLinkedList.TestLinkedList.testRandomArrayEquals" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyBoard" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestLinkedList.TestLinkedList.testRandomArrayEquals&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestLinkedList.TestLinkedList.testRemoveFirst" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyBoard" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestLinkedList.TestLinkedList.testRemoveFirst&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestLinkedList.TestLinkedList.testRemoveLast" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyBoard" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestLinkedList.TestLinkedList.testRemoveLast&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testAddFirst" />
+      <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testAddLast" />
+      <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testRemoveFirst" />
+      <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testRemoveLast" />
+      <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testRandomArrayEquals" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testRandomArrayEquals" />
+        <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testRemoveLast" />
+        <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testRemoveFirst" />
+        <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testAddLast" />
+        <item itemvalue="Python tests.Unittests for TestLinkedList.TestLinkedList.testAddFirst" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8400868-463e-4a35-a0c2-75dc2f3d5daa" name="Default Changelist" comment="" />
+      <created>1540568305761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540568305761</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testAddLast - 2018.10.28 at 14h 45m 06s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testAddLast" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testAddLast - 2018.10.28 at 14h 45m 22s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testAddLast" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testAddLast - 2018.10.28 at 14h 45m 38s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testAddLast" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testAddLast - 2018.10.28 at 14h 46m 04s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testAddLast" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testAddLast - 2018.10.28 at 14h 46m 48s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testAddLast" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testAddLast - 2018.10.28 at 14h 47m 27s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testAddLast" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testAddLast - 2018.10.28 at 14h 47m 37s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testAddLast" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testRemoveFirst - 2018.10.28 at 14h 47m 43s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testRemoveFirst" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testRemoveLast - 2018.10.28 at 14h 47m 46s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testRemoveLast" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestLinkedList_TestLinkedList_testRandomArrayEquals - 2018.10.28 at 14h 47m 52s.xml">
+      <configuration name="Unittests for TestLinkedList.TestLinkedList.testRandomArrayEquals" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="24" y="22" width="1656" height="1028" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2527881" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2705367" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/knapsack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="818" selection-start-line="818" selection-end-line="818" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures/TestLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1540737329407" expanded="true" signature="112:2545" ph="..." />
+            <marker date="1540737329407" expanded="true" signature="1682:1688" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures/LinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
