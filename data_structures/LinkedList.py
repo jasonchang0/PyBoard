@@ -39,8 +39,7 @@ class LinkedList(object):
         self.size += 1
 
     def addFirst(self, e):
-        i_site = self.Node(e, self.head)
-        self.head = i_site
+        self.head = self.Node(e, self.head)
         self.size += 1
 
     def addLast(self, e):
@@ -165,6 +164,8 @@ class LinkedList(object):
         out_array.append(current.val)
 
         return out_array
+
+
 
 
 

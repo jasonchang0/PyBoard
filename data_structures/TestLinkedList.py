@@ -15,12 +15,12 @@ class TestLinkedList(unittest.TestCase):
     def testAddFirst(self):
         lst = [1, 3, 5, 7, 9]
         linked_lst = ll.LinkedList()
-        linked_lst.addFirst(lst[0])
-        lst = lst[1:]
+        linked_lst.addFirst(lst[-1])
+        lst = lst[:-1]
 
         print(linked_lst.toArray())
 
-        for i in range(len(lst)):
+        for i in range(len(lst)-1, -1, -1):
             linked_lst.addFirst(lst[i])
 
         self.assertEqual([1, 3, 5, 7, 9], linked_lst.toArray())
